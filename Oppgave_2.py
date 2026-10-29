@@ -91,7 +91,6 @@ def hit_stand_logic(hand_val, player_hand_list_vals, player_hand_strs_list, deal
             player_hand_list_vals.append(new_val)
             player_hand_strs_list.append(new_str)
             hand_val = calculate_hand_value(player_hand_list_vals)
-
             print(f"You have been dealt one card ({new_val}). You have these cards in your hand now:")
             for card in player_hand_strs_list:
                 print(f"- {card}")
